@@ -18,7 +18,7 @@ int Multiplicacao(int num1, int num2)
 }
 float Divisao(int num1, int num2)
 {
-	return num1 / num2;
+	return (float)num1 / (float)num2;
 }
 int Potencia(int num1, int num2)
 {
